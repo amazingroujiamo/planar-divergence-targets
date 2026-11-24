@@ -1,0 +1,13 @@
+{
+ "group": "channel_y256",
+ "factor": 4,
+ "seed": 11,
+ "target": "Z",
+ "lam": 0.0001,
+ "from_epoch": 300,
+ "to_epoch": 600,
+ "epochs_run": 600,
+ "stop_reason": "max_epochs",
+ "final_val_E_v": 0.01573892021218433,
+ "out_dir": "artifacts/planar_divergence_targets_v1/runs/formal/channel_y256_r4/s11/Z/lam_1e-04/continuation"
+}

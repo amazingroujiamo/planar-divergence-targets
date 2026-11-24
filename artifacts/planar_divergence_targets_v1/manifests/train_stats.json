@@ -1,0 +1,98 @@
+{
+ "study": "planar_divergence_targets_v1",
+ "computed_utc": "2026-10-13T05:00:36Z",
+ "data_root_recorded_at_runtime": true,
+ "source_inventory": "source_inventory.csv",
+ "split_manifest": "split_manifest.csv",
+ "groups": {
+  "iso_xy": {
+   "dataset": "isotropic1024coarse",
+   "centers_1based": [
+    129,
+    385,
+    641,
+    897
+   ],
+   "n_train_planes": 112,
+   "U_g": 0.6486647257433684,
+   "U_g_squared": 0.42076592642371935,
+   "U_g_definition": "sqrt(mean over train planes of mean_{c,i,j}(q* - mu_LR)^2)",
+   "ell_g": 1.0,
+   "ell_g_definition": "sqrt(Lx*Ls)/(2*pi)",
+   "grid": {
+    "Nx": 1024,
+    "Ns": 1024,
+    "Lx": 6.283185307179586,
+    "Ls": 6.283185307179586,
+    "dx": 0.006135923151542565,
+    "ds": 0.006135923151542565
+   },
+   "train_A_d_star_mean": 9.140408081095142,
+   "train_chi2_mean": 0.16686053688994715,
+   "val_A_d_star_mean_unitU": 6.308708538189124
+  },
+  "channel_y075": {
+   "dataset": "channel",
+   "centers_1based": [
+    75
+   ],
+   "n_train_planes": 36,
+   "U_g": 0.08520844567565135,
+   "U_g_squared": 0.007260479214460428,
+   "U_g_definition": "sqrt(mean over train planes of mean_{c,i,j}(q* - mu_LR)^2)",
+   "ell_g": 2.4494897427831783,
+   "ell_g_definition": "sqrt(Lx*Ls)/(2*pi)",
+   "grid": {
+    "Nx": 2048,
+    "Ns": 1536,
+    "Lx": 25.132741228718345,
+    "Ls": 9.42477796076938,
+    "dx": 0.01227184630308513,
+    "ds": 0.006135923151542565
+   },
+   "train_A_d_star_mean": 54.4007041498316,
+   "train_chi2_mean": 0.17107084513058213,
+   "val_A_d_star_mean_unitU": 4.641748463509564
+  },
+  "channel_y256": {
+   "dataset": "channel",
+   "centers_1based": [
+    256
+   ],
+   "n_train_planes": 36,
+   "U_g": 0.037711540578829916,
+   "U_g_squared": 0.0014221602928287354,
+   "U_g_definition": "sqrt(mean over train planes of mean_{c,i,j}(q* - mu_LR)^2)",
+   "ell_g": 2.4494897427831783,
+   "ell_g_definition": "sqrt(Lx*Ls)/(2*pi)",
+   "grid": {
+    "Nx": 2048,
+    "Ns": 1536,
+    "Lx": 25.132741228718345,
+    "Ls": 9.42477796076938,
+    "dx": 0.01227184630308513,
+    "ds": 0.006135923151542565
+   },
+   "train_A_d_star_mean": 27.141074321323863,
+   "train_chi2_mean": 0.17677146836459656,
+   "val_A_d_star_mean_unitU": 1.0346358550262014
+  }
+ },
+ "legacy_crosscheck": {
+  "iso_xy": {
+   "legacy_s_g": 0.6486647257433684,
+   "U_g": 0.6486647257433684,
+   "rel_diff": 0.0
+  },
+  "channel_y075": {
+   "legacy_s_g": 0.08520844567565135,
+   "U_g": 0.08520844567565135,
+   "rel_diff": 0.0
+  },
+  "channel_y256": {
+   "legacy_s_g": 0.037711540578829916,
+   "U_g": 0.037711540578829916,
+   "rel_diff": 0.0
+  }
+ }
+}

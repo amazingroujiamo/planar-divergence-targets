@@ -1,0 +1,145 @@
+condition,group,factor,seed,target,lam,stage,epochs,lr_schedule,run_dir,status
+iso_xy_r4,iso_xy,4,11,A,0,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r4/s11/A/shared,pending
+iso_xy_r4,iso_xy,4,11,Z,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r4/s11/Z/lam_1e-06,pending
+iso_xy_r4,iso_xy,4,11,Z,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r4/s11/Z/lam_1e-05,pending
+iso_xy_r4,iso_xy,4,11,Z,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r4/s11/Z/lam_1e-04,pending
+iso_xy_r4,iso_xy,4,11,T,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r4/s11/T/lam_1e-06,pending
+iso_xy_r4,iso_xy,4,11,T,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r4/s11/T/lam_1e-05,pending
+iso_xy_r4,iso_xy,4,11,T,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r4/s11/T/lam_1e-04,pending
+iso_xy_r4,iso_xy,4,22,A,0,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r4/s22/A/shared,pending
+iso_xy_r4,iso_xy,4,22,Z,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r4/s22/Z/lam_1e-06,pending
+iso_xy_r4,iso_xy,4,22,Z,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r4/s22/Z/lam_1e-05,pending
+iso_xy_r4,iso_xy,4,22,Z,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r4/s22/Z/lam_1e-04,pending
+iso_xy_r4,iso_xy,4,22,T,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r4/s22/T/lam_1e-06,pending
+iso_xy_r4,iso_xy,4,22,T,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r4/s22/T/lam_1e-05,pending
+iso_xy_r4,iso_xy,4,22,T,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r4/s22/T/lam_1e-04,pending
+iso_xy_r4,iso_xy,4,33,A,0,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r4/s33/A/shared,pending
+iso_xy_r4,iso_xy,4,33,Z,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r4/s33/Z/lam_1e-06,pending
+iso_xy_r4,iso_xy,4,33,Z,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r4/s33/Z/lam_1e-05,pending
+iso_xy_r4,iso_xy,4,33,Z,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r4/s33/Z/lam_1e-04,pending
+iso_xy_r4,iso_xy,4,33,T,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r4/s33/T/lam_1e-06,pending
+iso_xy_r4,iso_xy,4,33,T,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r4/s33/T/lam_1e-05,pending
+iso_xy_r4,iso_xy,4,33,T,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r4/s33/T/lam_1e-04,pending
+iso_xy_r8,iso_xy,8,11,A,0,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r8/s11/A/shared,pending
+iso_xy_r8,iso_xy,8,11,Z,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r8/s11/Z/lam_1e-06,pending
+iso_xy_r8,iso_xy,8,11,Z,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r8/s11/Z/lam_1e-05,pending
+iso_xy_r8,iso_xy,8,11,Z,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r8/s11/Z/lam_1e-04,pending
+iso_xy_r8,iso_xy,8,11,T,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r8/s11/T/lam_1e-06,pending
+iso_xy_r8,iso_xy,8,11,T,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r8/s11/T/lam_1e-05,pending
+iso_xy_r8,iso_xy,8,11,T,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r8/s11/T/lam_1e-04,pending
+iso_xy_r8,iso_xy,8,22,A,0,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r8/s22/A/shared,pending
+iso_xy_r8,iso_xy,8,22,Z,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r8/s22/Z/lam_1e-06,pending
+iso_xy_r8,iso_xy,8,22,Z,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r8/s22/Z/lam_1e-05,pending
+iso_xy_r8,iso_xy,8,22,Z,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r8/s22/Z/lam_1e-04,pending
+iso_xy_r8,iso_xy,8,22,T,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r8/s22/T/lam_1e-06,pending
+iso_xy_r8,iso_xy,8,22,T,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r8/s22/T/lam_1e-05,pending
+iso_xy_r8,iso_xy,8,22,T,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r8/s22/T/lam_1e-04,pending
+iso_xy_r8,iso_xy,8,33,A,0,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r8/s33/A/shared,pending
+iso_xy_r8,iso_xy,8,33,Z,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r8/s33/Z/lam_1e-06,pending
+iso_xy_r8,iso_xy,8,33,Z,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r8/s33/Z/lam_1e-05,pending
+iso_xy_r8,iso_xy,8,33,Z,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r8/s33/Z/lam_1e-04,pending
+iso_xy_r8,iso_xy,8,33,T,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r8/s33/T/lam_1e-06,pending
+iso_xy_r8,iso_xy,8,33,T,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r8/s33/T/lam_1e-05,pending
+iso_xy_r8,iso_xy,8,33,T,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/iso_xy_r8/s33/T/lam_1e-04,pending
+channel_y075_r4,channel_y075,4,11,A,0,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r4/s11/A/shared,pending
+channel_y075_r4,channel_y075,4,11,Z,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r4/s11/Z/lam_1e-06,pending
+channel_y075_r4,channel_y075,4,11,Z,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r4/s11/Z/lam_1e-05,pending
+channel_y075_r4,channel_y075,4,11,Z,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r4/s11/Z/lam_1e-04,pending
+channel_y075_r4,channel_y075,4,11,T,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r4/s11/T/lam_1e-06,pending
+channel_y075_r4,channel_y075,4,11,T,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r4/s11/T/lam_1e-05,pending
+channel_y075_r4,channel_y075,4,11,T,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r4/s11/T/lam_1e-04,pending
+channel_y075_r4,channel_y075,4,22,A,0,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r4/s22/A/shared,pending
+channel_y075_r4,channel_y075,4,22,Z,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r4/s22/Z/lam_1e-06,pending
+channel_y075_r4,channel_y075,4,22,Z,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r4/s22/Z/lam_1e-05,pending
+channel_y075_r4,channel_y075,4,22,Z,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r4/s22/Z/lam_1e-04,pending
+channel_y075_r4,channel_y075,4,22,T,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r4/s22/T/lam_1e-06,pending
+channel_y075_r4,channel_y075,4,22,T,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r4/s22/T/lam_1e-05,pending
+channel_y075_r4,channel_y075,4,22,T,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r4/s22/T/lam_1e-04,pending
+channel_y075_r4,channel_y075,4,33,A,0,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r4/s33/A/shared,pending
+channel_y075_r4,channel_y075,4,33,Z,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r4/s33/Z/lam_1e-06,pending
+channel_y075_r4,channel_y075,4,33,Z,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r4/s33/Z/lam_1e-05,pending
+channel_y075_r4,channel_y075,4,33,Z,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r4/s33/Z/lam_1e-04,pending
+channel_y075_r4,channel_y075,4,33,T,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r4/s33/T/lam_1e-06,pending
+channel_y075_r4,channel_y075,4,33,T,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r4/s33/T/lam_1e-05,pending
+channel_y075_r4,channel_y075,4,33,T,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r4/s33/T/lam_1e-04,pending
+channel_y075_r8,channel_y075,8,11,A,0,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r8/s11/A/shared,pending
+channel_y075_r8,channel_y075,8,11,Z,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r8/s11/Z/lam_1e-06,pending
+channel_y075_r8,channel_y075,8,11,Z,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r8/s11/Z/lam_1e-05,pending
+channel_y075_r8,channel_y075,8,11,Z,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r8/s11/Z/lam_1e-04,pending
+channel_y075_r8,channel_y075,8,11,T,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r8/s11/T/lam_1e-06,pending
+channel_y075_r8,channel_y075,8,11,T,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r8/s11/T/lam_1e-05,pending
+channel_y075_r8,channel_y075,8,11,T,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r8/s11/T/lam_1e-04,pending
+channel_y075_r8,channel_y075,8,22,A,0,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r8/s22/A/shared,pending
+channel_y075_r8,channel_y075,8,22,Z,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r8/s22/Z/lam_1e-06,pending
+channel_y075_r8,channel_y075,8,22,Z,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r8/s22/Z/lam_1e-05,pending
+channel_y075_r8,channel_y075,8,22,Z,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r8/s22/Z/lam_1e-04,pending
+channel_y075_r8,channel_y075,8,22,T,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r8/s22/T/lam_1e-06,pending
+channel_y075_r8,channel_y075,8,22,T,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r8/s22/T/lam_1e-05,pending
+channel_y075_r8,channel_y075,8,22,T,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r8/s22/T/lam_1e-04,pending
+channel_y075_r8,channel_y075,8,33,A,0,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r8/s33/A/shared,pending
+channel_y075_r8,channel_y075,8,33,Z,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r8/s33/Z/lam_1e-06,pending
+channel_y075_r8,channel_y075,8,33,Z,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r8/s33/Z/lam_1e-05,pending
+channel_y075_r8,channel_y075,8,33,Z,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r8/s33/Z/lam_1e-04,pending
+channel_y075_r8,channel_y075,8,33,T,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r8/s33/T/lam_1e-06,pending
+channel_y075_r8,channel_y075,8,33,T,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r8/s33/T/lam_1e-05,pending
+channel_y075_r8,channel_y075,8,33,T,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y075_r8/s33/T/lam_1e-04,pending
+channel_y256_r4,channel_y256,4,11,A,0,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r4/s11/A/shared,pending
+channel_y256_r4,channel_y256,4,11,Z,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r4/s11/Z/lam_1e-06,pending
+channel_y256_r4,channel_y256,4,11,Z,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r4/s11/Z/lam_1e-05,pending
+channel_y256_r4,channel_y256,4,11,Z,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r4/s11/Z/lam_1e-04,pending
+channel_y256_r4,channel_y256,4,11,T,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r4/s11/T/lam_1e-06,pending
+channel_y256_r4,channel_y256,4,11,T,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r4/s11/T/lam_1e-05,pending
+channel_y256_r4,channel_y256,4,11,T,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r4/s11/T/lam_1e-04,pending
+channel_y256_r4,channel_y256,4,22,A,0,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r4/s22/A/shared,pending
+channel_y256_r4,channel_y256,4,22,Z,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r4/s22/Z/lam_1e-06,pending
+channel_y256_r4,channel_y256,4,22,Z,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r4/s22/Z/lam_1e-05,pending
+channel_y256_r4,channel_y256,4,22,Z,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r4/s22/Z/lam_1e-04,pending
+channel_y256_r4,channel_y256,4,22,T,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r4/s22/T/lam_1e-06,pending
+channel_y256_r4,channel_y256,4,22,T,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r4/s22/T/lam_1e-05,pending
+channel_y256_r4,channel_y256,4,22,T,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r4/s22/T/lam_1e-04,pending
+channel_y256_r4,channel_y256,4,33,A,0,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r4/s33/A/shared,pending
+channel_y256_r4,channel_y256,4,33,Z,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r4/s33/Z/lam_1e-06,pending
+channel_y256_r4,channel_y256,4,33,Z,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r4/s33/Z/lam_1e-05,pending
+channel_y256_r4,channel_y256,4,33,Z,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r4/s33/Z/lam_1e-04,pending
+channel_y256_r4,channel_y256,4,33,T,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r4/s33/T/lam_1e-06,pending
+channel_y256_r4,channel_y256,4,33,T,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r4/s33/T/lam_1e-05,pending
+channel_y256_r4,channel_y256,4,33,T,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r4/s33/T/lam_1e-04,pending
+channel_y256_r8,channel_y256,8,11,A,0,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r8/s11/A/shared,pending
+channel_y256_r8,channel_y256,8,11,Z,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r8/s11/Z/lam_1e-06,pending
+channel_y256_r8,channel_y256,8,11,Z,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r8/s11/Z/lam_1e-05,pending
+channel_y256_r8,channel_y256,8,11,Z,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r8/s11/Z/lam_1e-04,pending
+channel_y256_r8,channel_y256,8,11,T,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r8/s11/T/lam_1e-06,pending
+channel_y256_r8,channel_y256,8,11,T,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r8/s11/T/lam_1e-05,pending
+channel_y256_r8,channel_y256,8,11,T,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r8/s11/T/lam_1e-04,pending
+channel_y256_r8,channel_y256,8,22,A,0,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r8/s22/A/shared,pending
+channel_y256_r8,channel_y256,8,22,Z,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r8/s22/Z/lam_1e-06,pending
+channel_y256_r8,channel_y256,8,22,Z,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r8/s22/Z/lam_1e-05,pending
+channel_y256_r8,channel_y256,8,22,Z,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r8/s22/Z/lam_1e-04,pending
+channel_y256_r8,channel_y256,8,22,T,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r8/s22/T/lam_1e-06,pending
+channel_y256_r8,channel_y256,8,22,T,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r8/s22/T/lam_1e-05,pending
+channel_y256_r8,channel_y256,8,22,T,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r8/s22/T/lam_1e-04,pending
+channel_y256_r8,channel_y256,8,33,A,0,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r8/s33/A/shared,pending
+channel_y256_r8,channel_y256,8,33,Z,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r8/s33/Z/lam_1e-06,pending
+channel_y256_r8,channel_y256,8,33,Z,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r8/s33/Z/lam_1e-05,pending
+channel_y256_r8,channel_y256,8,33,Z,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r8/s33/Z/lam_1e-04,pending
+channel_y256_r8,channel_y256,8,33,T,9.9999999999999995e-07,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r8/s33/T/lam_1e-06,pending
+channel_y256_r8,channel_y256,8,33,T,1.0000000000000001e-05,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r8/s33/T/lam_1e-05,pending
+channel_y256_r8,channel_y256,8,33,T,0.0001,main,300,1e-03|3e-04|1e-04,runs/formal/channel_y256_r8/s33/T/lam_1e-04,pending
+iso_xy_r4,iso_xy,4,11,A,0,continuation,301-600,1e-4 fixed,runs/formal/iso_xy_r4/s11/A/shared/continuation,pending
+iso_xy_r4,iso_xy,4,11,Z,0.0001,continuation,301-600,1e-4 fixed,runs/formal/iso_xy_r4/s11/Z/lam_1e-04/continuation,pending
+iso_xy_r4,iso_xy,4,11,T,0.0001,continuation,301-600,1e-4 fixed,runs/formal/iso_xy_r4/s11/T/lam_1e-04/continuation,pending
+iso_xy_r8,iso_xy,8,11,A,0,continuation,301-600,1e-4 fixed,runs/formal/iso_xy_r8/s11/A/shared/continuation,pending
+iso_xy_r8,iso_xy,8,11,Z,0.0001,continuation,301-600,1e-4 fixed,runs/formal/iso_xy_r8/s11/Z/lam_1e-04/continuation,pending
+iso_xy_r8,iso_xy,8,11,T,0.0001,continuation,301-600,1e-4 fixed,runs/formal/iso_xy_r8/s11/T/lam_1e-04/continuation,pending
+channel_y075_r4,channel_y075,4,11,A,0,continuation,301-600,1e-4 fixed,runs/formal/channel_y075_r4/s11/A/shared/continuation,pending
+channel_y075_r4,channel_y075,4,11,Z,0.0001,continuation,301-600,1e-4 fixed,runs/formal/channel_y075_r4/s11/Z/lam_1e-04/continuation,pending
+channel_y075_r4,channel_y075,4,11,T,0.0001,continuation,301-600,1e-4 fixed,runs/formal/channel_y075_r4/s11/T/lam_1e-04/continuation,pending
+channel_y075_r8,channel_y075,8,11,A,0,continuation,301-600,1e-4 fixed,runs/formal/channel_y075_r8/s11/A/shared/continuation,pending
+channel_y075_r8,channel_y075,8,11,Z,0.0001,continuation,301-600,1e-4 fixed,runs/formal/channel_y075_r8/s11/Z/lam_1e-04/continuation,pending
+channel_y075_r8,channel_y075,8,11,T,0.0001,continuation,301-600,1e-4 fixed,runs/formal/channel_y075_r8/s11/T/lam_1e-04/continuation,pending
+channel_y256_r4,channel_y256,4,11,A,0,continuation,301-600,1e-4 fixed,runs/formal/channel_y256_r4/s11/A/shared/continuation,pending
+channel_y256_r4,channel_y256,4,11,Z,0.0001,continuation,301-600,1e-4 fixed,runs/formal/channel_y256_r4/s11/Z/lam_1e-04/continuation,pending
+channel_y256_r4,channel_y256,4,11,T,0.0001,continuation,301-600,1e-4 fixed,runs/formal/channel_y256_r4/s11/T/lam_1e-04/continuation,pending
+channel_y256_r8,channel_y256,8,11,A,0,continuation,301-600,1e-4 fixed,runs/formal/channel_y256_r8/s11/A/shared/continuation,pending
+channel_y256_r8,channel_y256,8,11,Z,0.0001,continuation,301-600,1e-4 fixed,runs/formal/channel_y256_r8/s11/Z/lam_1e-04/continuation,pending
+channel_y256_r8,channel_y256,8,11,T,0.0001,continuation,301-600,1e-4 fixed,runs/formal/channel_y256_r8/s11/T/lam_1e-04/continuation,pending

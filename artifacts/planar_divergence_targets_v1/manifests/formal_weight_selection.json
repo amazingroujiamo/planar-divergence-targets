@@ -1,0 +1,92 @@
+{
+ "channel_y075_r4|A": {
+  "lam": 0.0,
+  "rule": "baseline only",
+  "mean_val_E_v": 0.03159662190694794
+ },
+ "channel_y075_r4|Z": {
+  "lam": 0.0,
+  "rule": "min 3-seed mean val E_v; <1% ties to smaller",
+  "mean_val_E_v": 0.03159662190694794
+ },
+ "channel_y075_r4|T": {
+  "lam": 0.0,
+  "rule": "min 3-seed mean val E_v; <1% ties to smaller",
+  "mean_val_E_v": 0.03159662190694794
+ },
+ "channel_y075_r8|A": {
+  "lam": 0.0,
+  "rule": "baseline only",
+  "mean_val_E_v": 0.12483684285923025
+ },
+ "channel_y075_r8|Z": {
+  "lam": 0.0,
+  "rule": "min 3-seed mean val E_v; <1% ties to smaller",
+  "mean_val_E_v": 0.12483684285923025
+ },
+ "channel_y075_r8|T": {
+  "lam": 0.0,
+  "rule": "min 3-seed mean val E_v; <1% ties to smaller",
+  "mean_val_E_v": 0.12483684285923025
+ },
+ "channel_y256_r4|A": {
+  "lam": 0.0,
+  "rule": "baseline only",
+  "mean_val_E_v": 0.003935338564054767
+ },
+ "channel_y256_r4|Z": {
+  "lam": 0.0,
+  "rule": "min 3-seed mean val E_v; <1% ties to smaller",
+  "mean_val_E_v": 0.003935338564054767
+ },
+ "channel_y256_r4|T": {
+  "lam": 0.0,
+  "rule": "min 3-seed mean val E_v; <1% ties to smaller",
+  "mean_val_E_v": 0.003935338564054767
+ },
+ "channel_y256_r8|A": {
+  "lam": 0.0,
+  "rule": "baseline only",
+  "mean_val_E_v": 0.035127323217142625
+ },
+ "channel_y256_r8|Z": {
+  "lam": 0.0,
+  "rule": "min 3-seed mean val E_v; <1% ties to smaller",
+  "mean_val_E_v": 0.035127323217142625
+ },
+ "channel_y256_r8|T": {
+  "lam": 0.0,
+  "rule": "min 3-seed mean val E_v; <1% ties to smaller",
+  "mean_val_E_v": 0.035127323217142625
+ },
+ "iso_xy_r4|A": {
+  "lam": 0.0,
+  "rule": "baseline only",
+  "mean_val_E_v": 0.0016801114057827225
+ },
+ "iso_xy_r4|Z": {
+  "lam": 0.0,
+  "rule": "min 3-seed mean val E_v; <1% ties to smaller",
+  "mean_val_E_v": 0.0016801114057827225
+ },
+ "iso_xy_r4|T": {
+  "lam": 0.0,
+  "rule": "min 3-seed mean val E_v; <1% ties to smaller",
+  "mean_val_E_v": 0.0016801114057827225
+ },
+ "iso_xy_r8|A": {
+  "lam": 0.0,
+  "rule": "baseline only",
+  "mean_val_E_v": 0.013145701216955817
+ },
+ "iso_xy_r8|Z": {
+  "lam": 0.0,
+  "rule": "min 3-seed mean val E_v; <1% ties to smaller",
+  "mean_val_E_v": 0.013145701216955817
+ },
+ "iso_xy_r8|T": {
+  "lam": 0.0,
+  "rule": "min 3-seed mean val E_v; <1% ties to smaller",
+  "mean_val_E_v": 0.013145701216955817
+ }
+}

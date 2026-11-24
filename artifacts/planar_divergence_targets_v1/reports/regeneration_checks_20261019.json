@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-19T10:42:36.826956+08:00",
+  "scope": "本地分析与内部报告修复；未重跑训练、逐场评价或论文写作",
+  "rows": {
+    "per_field": 4032,
+    "per_time": 2016,
+    "per_seed": 126,
+    "effects": 60,
+    "comparisons": 54
+  },
+  "independent_reaggregation": {
+    "max_per_time_Ev_error": 3.469446951953614e-18,
+    "max_per_seed_Ev_error": 2.7755575615628914e-17,
+    "max_condition_relative_effect_error": 1.7763568394002505e-15,
+    "max_seed_relative_effect_error": 8.881784197001252e-16,
+    "seed_relative_values_checked": 162,
+    "all_54_classifications_and_intervals_verified": true
+  },
+  "classification_changes": {
+    "channel_y256_r4|target|1e-06": {
+      "before": "practical_equivalence",
+      "after": "uncertain_or_unstable",
+      "seed_R": {
+        "11": 0.014186980908371088,
+        "22": 0.007002733941100306,
+        "33": -0.006972652586142831
+      }
+    },
+    "iso_xy_r4|target|1e-06": {
+      "before": "practical_equivalence",
+      "after": "uncertain_or_unstable",
+      "seed_R": {
+        "11": 0.016908211871105645,
+        "22": -0.012033044274898912,
+        "33": -0.006426737748430771
+      }
+    }
+  },
+  "reference_T_counts": {
+    "practical_equivalence": 14,
+    "uncertain_or_unstable": 4
+  },
+  "headline_counts": {
+    "Z_mid_degradation": 3,
+    "Z_high_degradation": 6,
+    "target_mid_improvement": 4,
+    "validation_target_comparisons_selecting_zero": 12
+  },
+  "unchanged": {
+    "protected_files_checked": 538,
+    "protected_hashes_all_match": true,
+    "per_field_sha256": "04c57245a52b8b2706058d50e93601dd6121d47e6bdb6f62fb1902544424ce22",
+    "all_54_condition_effects_and_selected_CIs_exactly_unchanged": true,
+    "all_preexisting_effects_csv_cells_unchanged": true,
+    "byte_identical_regenerated_outputs": {
+      "metrics/per_time.csv": true,
+      "metrics/per_seed.csv": true,
+      "reports/bootstrap.json": true,
+      "reports/convergence_check.json": true
+    }
+  },
+  "report_checks": {
+    "main_table_all_6_rows_and_42_error_values_verified": true,
+    "reference_summary_T_only": true,
+    "validation_stage_stability_refinement_disclosed": true
+  },
+  "regression_tests": {
+    "command": "python3 -m unittest discover -s tests -p test_pdt_analysis_reporting.py -v",
+    "tests": 7,
+    "result": "PASS",
+    "python": "bundled workspace Python 3"
+  },
+  "source_sha256": {
+    "experiments/pdt_analyze.py": "64de54442a18290964e3a8134b3ec3954e59087a944fc1dcfb86bb390c6cf00f",
+    "experiments/pdt_report.py": "e9601beb28fc5de00a2752907129ca99169039b1ef40ea0c1ae0582ba239df20",
+    "src/pdt/spec.py": "28eea5af335578e95b4bd5c95a2b041c72959795089bc3f66d0cca489246fea9",
+    "src/pdt/train.py": "c42475e53a24f76b0ea06c1c290424e354c3674776e2c0d4f6186d10fe8526cd",
+    "tests/test_pdt_analysis_reporting.py": "c220867b2969c0434524cf718ecc94a566e66df954eff8046cd85c9ccc7b6019"
+  },
+  "sync_scope": "此次修复仅写入本地 Mac，未同步到远端执行副本",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.2",
+    "training_framework_required_for_analysis": false
+  },
+  "updated_output_sha256": {
+    "artifacts/planar_divergence_targets_v1/reports/results.md": "7f5cfb38b9ba270fb895b25b392677fa10227e03d95ec8b9e0daf7693893e4de",
+    "artifacts/planar_divergence_targets_v1/reports/classification.json": "4fd795821ad631303318678c6e608c392a0eadffb0357f99b549bad52e8418b0",
+    "artifacts/planar_divergence_targets_v1/reports/progress_20261013.md": "2dcc8bea545fb4f146811070b456accc9d365e142e4b68cbcc89d223fe8a9e3b",
+    "artifacts/planar_divergence_targets_v1/metrics/effects.csv": "c94130a9e8b7435691c72e913b97fe6eaf60535f33dd25db9c89b5f05c0be3d5"
+  }
+}

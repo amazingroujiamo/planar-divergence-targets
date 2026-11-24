@@ -1,0 +1,13 @@
+{
+ "group": "iso_xy",
+ "factor": 8,
+ "seed": 11,
+ "target": "T",
+ "lam": 0.0001,
+ "from_epoch": 300,
+ "to_epoch": 600,
+ "epochs_run": 600,
+ "stop_reason": "max_epochs",
+ "final_val_E_v": 0.013241071988350561,
+ "out_dir": "artifacts/planar_divergence_targets_v1/runs/formal/iso_xy_r8/s11/T/lam_1e-04/continuation"
+}

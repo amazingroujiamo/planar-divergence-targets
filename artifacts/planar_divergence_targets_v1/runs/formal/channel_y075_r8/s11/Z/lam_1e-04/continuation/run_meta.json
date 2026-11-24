@@ -1,0 +1,12 @@
+{
+ "type": "continuation",
+ "from_epoch": 300,
+ "to_epoch": 600,
+ "lr": 0.0001,
+ "group": "channel_y075",
+ "factor": 8,
+ "seed": 11,
+ "target": "Z",
+ "lam": 0.0001,
+ "started_utc": "2026-10-18T16:38:29Z"
+}

@@ -1,0 +1,320 @@
+{
+ "study": "planar_divergence_targets_v1",
+ "rule": "S(lambda)=1-median_g A_Z,g(lambda)/A_A,g at each run's best val E_v epoch; triple minimizing |S-.1|+|S-.3|+|S-.6|; lexicographic smaller-weight tie break",
+ "targets": [
+  0.1,
+  0.3,
+  0.6
+ ],
+ "grid": [
+  1e-06,
+  1e-05,
+  0.0001,
+  0.001,
+  0.01,
+  0.1,
+  1.0
+ ],
+ "baseline_A_d": {
+  "iso_xy_r4": 8.646662699253369,
+  "channel_y075_r4": 40.63301394934594
+ },
+ "S_of_lambda": {
+  "1e-06": 0.02516054812800439,
+  "1e-05": 0.17033601906196016,
+  "1e-04": 0.49454224542977476,
+  "1e-03": 0.7687131398680888,
+  "1e-02": 0.8846562189339113,
+  "1e-01": 0.9220294809134091,
+  "1e+00": 0.9713334681978959
+ },
+ "status_of_lambda": {
+  "1e-06": {
+   "valid": true,
+   "detail": {}
+  },
+  "1e-05": {
+   "valid": true,
+   "detail": {}
+  },
+  "1e-04": {
+   "valid": true,
+   "detail": {}
+  },
+  "1e-03": {
+   "valid": true,
+   "detail": {}
+  },
+  "1e-02": {
+   "valid": true,
+   "detail": {}
+  },
+  "1e-01": {
+   "valid": true,
+   "detail": {}
+  },
+  "1e+00": {
+   "valid": true,
+   "detail": {}
+  }
+ },
+ "chosen": [
+  "1e-06",
+  "1e-05",
+  "1e-04"
+ ],
+ "chosen_S": [
+  0.02516054812800439,
+  0.17033601906196016,
+  0.49454224542977476
+ ],
+ "cost": 0.3099611873802607,
+ "coverage": {
+  "max_S": 0.9713334681978959,
+  "min_S": 0.02516054812800439,
+  "upper_extension_recommended": false,
+  "lower_extension_recommended": false
+ },
+ "runs": {
+  "iso_xy_r4_A_0e+00": {
+   "status": "ok",
+   "best_epoch": 49,
+   "best_val_E_v": 0.002003979974447713,
+   "val_A_d_at_best": 8.646662699253369,
+   "val_E_d_at_best": 21.108545218625956,
+   "stop_reason": "max_epochs"
+  },
+  "iso_xy_r4_Z_1e-06": {
+   "status": "ok",
+   "best_epoch": 50,
+   "best_val_E_v": 0.00201378983272706,
+   "val_A_d_at_best": 8.57632220313059,
+   "val_E_d_at_best": 21.29450706812565,
+   "stop_reason": "max_epochs"
+  },
+  "iso_xy_r4_T_1e-06": {
+   "status": "ok",
+   "best_epoch": 47,
+   "best_val_E_v": 0.002019985179617218,
+   "val_A_d_at_best": 8.638254759139054,
+   "val_E_d_at_best": 21.015480024216412,
+   "stop_reason": "max_epochs"
+  },
+  "iso_xy_r4_Z_1e-05": {
+   "status": "ok",
+   "best_epoch": 48,
+   "best_val_E_v": 0.0020667661289591596,
+   "val_A_d_at_best": 7.966183389491922,
+   "val_E_d_at_best": 21.74912228074534,
+   "stop_reason": "max_epochs"
+  },
+  "iso_xy_r4_T_1e-05": {
+   "status": "ok",
+   "best_epoch": 48,
+   "best_val_E_v": 0.002010660785247722,
+   "val_A_d_at_best": 8.671617731258525,
+   "val_E_d_at_best": 20.501841920364633,
+   "stop_reason": "max_epochs"
+  },
+  "iso_xy_r4_Z_1e-04": {
+   "status": "ok",
+   "best_epoch": 50,
+   "best_val_E_v": 0.0035015258201007817,
+   "val_A_d_at_best": 5.660913268098432,
+   "val_E_d_at_best": 36.08644593562447,
+   "stop_reason": "max_epochs"
+  },
+  "iso_xy_r4_T_1e-04": {
+   "status": "ok",
+   "best_epoch": 50,
+   "best_val_E_v": 0.0019422456414832454,
+   "val_A_d_at_best": 8.743319749874873,
+   "val_E_d_at_best": 18.898016203595958,
+   "stop_reason": "max_epochs"
+  },
+  "iso_xy_r4_Z_1e-03": {
+   "status": "ok",
+   "best_epoch": 48,
+   "best_val_E_v": 0.012362250006095164,
+   "val_A_d_at_best": 2.8787526361798834,
+   "val_E_d_at_best": 68.4553235102773,
+   "stop_reason": "max_epochs"
+  },
+  "iso_xy_r4_T_1e-03": {
+   "status": "ok",
+   "best_epoch": 50,
+   "best_val_E_v": 0.0019630079379566808,
+   "val_A_d_at_best": 8.79649477421082,
+   "val_E_d_at_best": 17.883010446232085,
+   "stop_reason": "max_epochs"
+  },
+  "iso_xy_r4_Z_1e-02": {
+   "status": "ok",
+   "best_epoch": 23,
+   "best_val_E_v": 0.029889232286644394,
+   "val_A_d_at_best": 1.5943169074615096,
+   "val_E_d_at_best": 87.7171652842794,
+   "stop_reason": "max_epochs"
+  },
+  "iso_xy_r4_T_1e-02": {
+   "status": "ok",
+   "best_epoch": 48,
+   "best_val_E_v": 0.0020417910794756156,
+   "val_A_d_at_best": 8.78910721426891,
+   "val_E_d_at_best": 17.38120364553251,
+   "stop_reason": "max_epochs"
+  },
+  "iso_xy_r4_Z_1e-01": {
+   "status": "ok",
+   "best_epoch": 41,
+   "best_val_E_v": 0.06058100095087751,
+   "val_A_d_at_best": 1.202253254606454,
+   "val_E_d_at_best": 91.6772368726408,
+   "stop_reason": "max_epochs"
+  },
+  "iso_xy_r4_T_1e-01": {
+   "status": "ok",
+   "best_epoch": 46,
+   "best_val_E_v": 0.00270471400844697,
+   "val_A_d_at_best": 8.794968540273906,
+   "val_E_d_at_best": 17.911921733979717,
+   "stop_reason": "max_epochs"
+  },
+  "iso_xy_r4_Z_1e+00": {
+   "status": "ok",
+   "best_epoch": 46,
+   "best_val_E_v": 0.39850981865740964,
+   "val_A_d_at_best": 0.4530155237221325,
+   "val_E_d_at_best": 93.5540269014102,
+   "stop_reason": "max_epochs"
+  },
+  "iso_xy_r4_T_1e+00": {
+   "status": "ok",
+   "best_epoch": 38,
+   "best_val_E_v": 0.005190493877020122,
+   "val_A_d_at_best": 8.836444776353044,
+   "val_E_d_at_best": 18.06124109049932,
+   "stop_reason": "max_epochs"
+  },
+  "channel_y075_r4_A_0e+00": {
+   "status": "ok",
+   "best_epoch": 48,
+   "best_val_E_v": 0.03329339298615723,
+   "val_A_d_at_best": 40.63301394934594,
+   "val_E_d_at_best": 1346.3492546255738,
+   "stop_reason": "max_epochs"
+  },
+  "channel_y075_r4_Z_1e-06": {
+   "status": "ok",
+   "best_epoch": 49,
+   "best_val_E_v": 0.03344439885743063,
+   "val_A_d_at_best": 38.918865218586,
+   "val_E_d_at_best": 1353.18596692091,
+   "stop_reason": "max_epochs"
+  },
+  "channel_y075_r4_T_1e-06": {
+   "status": "ok",
+   "best_epoch": 50,
+   "best_val_E_v": 0.03327228909232043,
+   "val_A_d_at_best": 40.50447810141223,
+   "val_E_d_at_best": 1336.9182511578956,
+   "stop_reason": "max_epochs"
+  },
+  "channel_y075_r4_Z_1e-05": {
+   "status": "ok",
+   "best_epoch": 47,
+   "best_val_E_v": 0.03626406435629713,
+   "val_A_d_at_best": 29.98823916947559,
+   "val_E_d_at_best": 1519.8645903317895,
+   "stop_reason": "max_epochs"
+  },
+  "channel_y075_r4_T_1e-05": {
+   "status": "ok",
+   "best_epoch": 50,
+   "best_val_E_v": 0.03306177113943724,
+   "val_A_d_at_best": 41.01047111619143,
+   "val_E_d_at_best": 1306.7158907450125,
+   "stop_reason": "max_epochs"
+  },
+  "channel_y075_r4_Z_1e-04": {
+   "status": "ok",
+   "best_epoch": 49,
+   "best_val_E_v": 0.06017782614902049,
+   "val_A_d_at_best": 14.474376675669802,
+   "val_E_d_at_best": 2239.0288681988227,
+   "stop_reason": "max_epochs"
+  },
+  "channel_y075_r4_T_1e-04": {
+   "status": "ok",
+   "best_epoch": 49,
+   "best_val_E_v": 0.033330495586559754,
+   "val_A_d_at_best": 41.19298645157845,
+   "val_E_d_at_best": 1273.6544351560246,
+   "stop_reason": "max_epochs"
+  },
+  "channel_y075_r4_Z_1e-03": {
+   "status": "ok",
+   "best_epoch": 22,
+   "best_val_E_v": 0.10944589545059488,
+   "val_A_d_at_best": 5.2677247564610745,
+   "val_E_d_at_best": 2779.1301647284545,
+   "stop_reason": "max_epochs"
+  },
+  "channel_y075_r4_T_1e-03": {
+   "status": "ok",
+   "best_epoch": 47,
+   "best_val_E_v": 0.03437424253607747,
+   "val_A_d_at_best": 41.87833022800575,
+   "val_E_d_at_best": 1266.3159308031413,
+   "stop_reason": "max_epochs"
+  },
+  "channel_y075_r4_Z_1e-02": {
+   "status": "ok",
+   "best_epoch": 47,
+   "best_val_E_v": 0.1632026433199674,
+   "val_A_d_at_best": 1.8814032278682373,
+   "val_E_d_at_best": 2937.613818162002,
+   "stop_reason": "max_epochs"
+  },
+  "channel_y075_r4_T_1e-02": {
+   "status": "ok",
+   "best_epoch": 50,
+   "best_val_E_v": 0.036402871084400656,
+   "val_A_d_at_best": 41.53775372404535,
+   "val_E_d_at_best": 1263.4946679862903,
+   "stop_reason": "max_epochs"
+  },
+  "channel_y075_r4_Z_1e-01": {
+   "status": "ok",
+   "best_epoch": 47,
+   "best_val_E_v": 0.28009367778115746,
+   "val_A_d_at_best": 0.686640152710027,
+   "val_E_d_at_best": 2963.186555599866,
+   "stop_reason": "max_epochs"
+  },
+  "channel_y075_r4_T_1e-01": {
+   "status": "ok",
+   "best_epoch": 49,
+   "best_val_E_v": 0.04522765556472401,
+   "val_A_d_at_best": 41.58254419518472,
+   "val_E_d_at_best": 1263.2764410985214,
+   "stop_reason": "max_epochs"
+  },
+  "channel_y075_r4_Z_1e+00": {
+   "status": "ok",
+   "best_epoch": 50,
+   "best_val_E_v": 0.7702986376996445,
+   "val_A_d_at_best": 0.20077231960281883,
+   "val_E_d_at_best": 2965.9603158982313,
+   "stop_reason": "max_epochs"
+  },
+  "channel_y075_r4_T_1e+00": {
+   "status": "ok",
+   "best_epoch": 36,
+   "best_val_E_v": 0.05674073654429043,
+   "val_A_d_at_best": 41.403526481798906,
+   "val_E_d_at_best": 1267.329279080433,
+   "stop_reason": "max_epochs"
+  }
+ }
+}

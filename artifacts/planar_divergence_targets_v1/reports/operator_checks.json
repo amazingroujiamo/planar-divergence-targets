@@ -1,0 +1,131 @@
+{
+ "study": "planar_divergence_targets_v1",
+ "checked_utc": "2026-10-13T04:56:10Z",
+ "torch_version": "2.5.1+cu124",
+ "cuda_available": true,
+ "device_name": "NVIDIA GeForce RTX 4090",
+ "elapsed_seconds": 1.574476718902588,
+ "all_required_passed": true,
+ "checks": {
+  "1a_constant_field": {
+   "status": "PASS",
+   "required": true,
+   "detail": "max|D|=0.00e+00"
+  },
+  "1b_nonsquare_sinusoid": {
+   "status": "PASS",
+   "required": true,
+   "detail": "max rel err=1.20e-14"
+  },
+  "1c_single_axis_nyquist": {
+   "status": "PASS",
+   "required": true,
+   "detail": "max rel err=9.24e-15"
+  },
+  "2a_numpy_vs_torch_fp64_iso_1024": {
+   "status": "PASS",
+   "required": true,
+   "detail": "atol=1.54e-13 rtol=2.31e-14"
+  },
+  "2b_fp32_vs_fp64_iso_1024": {
+   "status": "PASS",
+   "required": true,
+   "detail": "rms rel=6.78e-06"
+  },
+  "2a_numpy_vs_torch_fp64_channel_1536x2048": {
+   "status": "PASS",
+   "required": true,
+   "detail": "atol=3.55e-13 rtol=4.64e-14"
+  },
+  "2b_fp32_vs_fp64_channel_1536x2048": {
+   "status": "PASS",
+   "required": true,
+   "detail": "rms rel=1.21e-05"
+  },
+  "2a_numpy_vs_torch_fp64_nonsquare_small": {
+   "status": "PASS",
+   "required": true,
+   "detail": "atol=5.77e-15 rtol=1.16e-15"
+  },
+  "2b_fp32_vs_fp64_nonsquare_small": {
+   "status": "PASS",
+   "required": true,
+   "detail": "rms rel=4.72e-07"
+  },
+  "3a_autograd_vs_finite_differences": {
+   "status": "PASS",
+   "required": true,
+   "detail": "max rel err=1.74e-07 on 40 coords"
+  },
+  "3b_linearity_D(z-q)": {
+   "status": "PASS",
+   "required": true,
+   "detail": "max|diff|=6.04e-14"
+  },
+  "4a_zero_at_identity_T": {
+   "status": "PASS",
+   "required": true,
+   "detail": "L_v=0.00e+00, div_T=0.00e+00"
+  },
+  "4b_zero_target_equals_label_energy": {
+   "status": "PASS",
+   "required": true,
+   "detail": "div_Z=6.170629882812e+01 vs energy=6.170630103766e+01"
+  },
+  "4c_cached_dref_matches_online": {
+   "status": "PASS",
+   "required": true,
+   "detail": "max|diff|=0.00e+00"
+  },
+  "5_lambda0_loss_and_gradient_identical": {
+   "status": "PASS",
+   "required": true,
+   "detail": "loss equal: True, grad equal: True"
+  },
+  "6a_block_average_matches_manual": {
+   "status": "PASS",
+   "required": true,
+   "detail": "max|diff|=0.00e+00"
+  },
+  "6b_blockavg_of_replication_is_identity": {
+   "status": "PASS",
+   "required": true,
+   "detail": "max|diff|=0.00e+00"
+  },
+  "6c_component_order_isotropic1024coarse": {
+   "status": "PASS",
+   "required": true,
+   "detail": "u->ch0, v->ch1 exact"
+  },
+  "6c_component_order_channel": {
+   "status": "PASS",
+   "required": true,
+   "detail": "u->ch0, w->ch1 exact"
+  },
+  "6d_mean_restoration_fp32": {
+   "status": "PASS",
+   "required": true,
+   "detail": "max rel err=3.10e-08"
+  },
+  "6e_lr_mean_equals_hr_mean": {
+   "status": "PASS",
+   "required": true,
+   "detail": "max|diff|=0.00e+00"
+  },
+  "6f_network_input_shape_two_channels": {
+   "status": "PASS",
+   "required": true,
+   "detail": "shape=(1, 2, 128, 128)"
+  },
+  "6g_prospective_times_disjoint_from_legacy": {
+   "status": "PASS",
+   "required": true,
+   "detail": "overlap=0"
+  },
+  "6g_prospective_channel_times_disjoint": {
+   "status": "PASS",
+   "required": true,
+   "detail": "overlap=0"
+  }
+ }
+}
